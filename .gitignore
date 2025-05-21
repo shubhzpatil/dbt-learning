@@ -1,0 +1,9 @@
+# dbt artifacts
+target/
+dbt_modules/
+dbt_packages/
+logs/
+manifest.json
+run_results.json
+profiles.yml
+
