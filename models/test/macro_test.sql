@@ -1,0 +1,1 @@
+select '{{ show_num(5) }}' as numbers
