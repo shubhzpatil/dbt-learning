@@ -1,4 +1,5 @@
 {% macro show_num(num) %}
-    { set numbers = num}
-    {{ return numbers}}
+    {% for ele in num %}
+        select {{ ele }} as numbers {% if not loop.last %} union all {% endif %}
+    {% endfor %}
 {% endmacro %}
