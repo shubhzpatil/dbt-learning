@@ -1,0 +1,1 @@
+{{ union_table_by_prefix('pioneering-fuze-459809-r4','dbt_learn','payments_') }}
